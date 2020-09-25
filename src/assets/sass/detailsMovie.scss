@@ -1,0 +1,78 @@
+.details {
+  padding: 50px 40px;
+  border-left: 1px solid #121212;
+  width: 270px;
+  min-width: 270px;
+
+  &__header {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    font-size: 41px;
+  }
+
+  &__button {
+    background-color: #121212;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    height: 55px;
+    border: none;
+    outline: none;
+    transition: 0.15s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #E2B616;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__image img {
+    max-width: 280px;
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  &__rating {
+    position: relative;
+    top: -10px;
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/star.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &-num {
+      font-size: 30px;
+      position: relative;
+      left: 50px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+
+  &__creators {
+    margin: 5px 0;
+  }
+
+  &__important {
+    font-weight: bold;
+  }
+}
+

@@ -1,0 +1,45 @@
+@import "./fonts";
+@import "./app.scss";
+@import "./searchForm.scss";
+@import "./moviesList.scss";
+@import "./buttons.scss";
+@import "./pagination.scss";
+@import "./detailsMovie.scss";
+@import "./searchHistory.scss";
+@import "./loader.scss";
+@import "./errors.scss";
+
+html {
+  font-family: "Roboto", Arial, Helvetica;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+a,
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  color: #B28E09;
+  transition: 0.1s;
+}
+
+a:hover {
+  color: #E2B616;
+  cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+}

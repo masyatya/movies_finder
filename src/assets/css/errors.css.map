@@ -1,0 +1,1 @@
+{"version":3,"file":"errors.css","sources":["errors.scss"],"sourcesContent":[".error__message {\n  font-size: 20px;\n  margin: 20px 0 0 20px;\n  color: #FF0000;\n}\n"],"names":[],"mappings":"AAAA,AAAA,eAAe,CAAC;EACd,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,aAAa;EACrB,KAAK,EAAE,OAAO,GACf"}

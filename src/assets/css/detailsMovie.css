@@ -1,0 +1,54 @@
+.details {
+  padding: 50px 40px;
+  border-left: 1px solid #121212;
+  width: 270px;
+  min-width: 270px; }
+  .details__header {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between; }
+  .details__heading {
+    font-size: 41px; }
+  .details__button {
+    background-color: #121212;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    height: 55px;
+    border: none;
+    outline: none;
+    transition: 0.15s; }
+    .details__button:hover {
+      cursor: pointer;
+      background-color: #E2B616; }
+  .details__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .details__image img {
+    max-width: 280px;
+    margin-bottom: 10px; }
+  .details__title {
+    font-size: 30px;
+    margin-bottom: 15px; }
+  .details__rating {
+    position: relative;
+    top: -10px;
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/star.svg");
+    background-position: center;
+    background-repeat: no-repeat; }
+    .details__rating-num {
+      font-size: 30px;
+      position: relative;
+      left: 50px; }
+  .details__description {
+    margin-bottom: 10px;
+    text-align: justify; }
+  .details__creators {
+    margin: 5px 0; }
+  .details__important {
+    font-weight: bold; }
+
+/*# sourceMappingURL=detailsMovie.css.map */
