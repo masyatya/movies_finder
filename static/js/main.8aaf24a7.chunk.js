@@ -1,0 +1,2 @@
+(this.webpackJsonpmovies_finder=this.webpackJsonpmovies_finder||[]).push([[0],{3:function(e,n,t){e.exports=t(8)},8:function(e,n,t){"use strict";t.r(n);var r=t(0),a=t.n(r),i=t(2);var s=function(){return a.a.createElement("div",{className:"App"},a.a.createElement("h1",null,"Movies Finder"))};t.n(i).a.render(a.a.createElement(s,null),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.8aaf24a7.chunk.js.map
